@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Changer de police d'écriture 
+    Trouver une police classe
+*/
+/* Changer les boutons
+    Souhaits: paillettes & wahou
+    Sous : + classe avec une border étoilée, qui scintille
+    non : Très sombre, peu visible et qui "disparait" au survol + 0 padding  => ok
+*/
+/* 
+Changer la couleur rose pour une couleur plus simple à voir sur le noir
+*/
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    text-align: center;
+    background-color: #333;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#jours{
+    color: aliceblue;
+}
+
+.trente{
+    color: #555;
+}
+
+#photo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.txt{
+    color: aliceblue;
+}
+.multiple-text{
+    color: #f00780;
+}
+
+#buttonContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    gap: 20%;
+}
+
+button{
+    padding: 1%;
+    margin-top: 2%;
+    border-radius: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.liste{
+    border: 1px #f00780 solid;
+    background-color: #333;
+}
+
+.liste a{
+    color: #f00780;
+}
+
+.heritier{
+    border: 1px gold solid;
+    background-color: #333;
+}
+
+.heritier a{
+    color: gold;
+}
+
+.non{
+    background-color: #444;
+    border: none;
+}
+
+.non a{
+    color: #333;
+}
+
+.non:hover{
+    background-color: #333;
+    border: none;
+    padding: 0;
+}
+
+footer{
+    background-color: #333;
+    border-top: 1px solid #f00780;
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+}
+
+#design{
+    color: aliceblue;
+}
+
+#Alouka{
+    color: #f00780;
+}
