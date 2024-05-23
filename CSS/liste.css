@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: bisque;
+}
+
+.container{
+    /* Affichage grid 3 colonnes */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 50px;
+    /* aspect-ratio: 1 / 1; */
+}
+
+img2{
+
+}
+
+img4{
+
+}
+
+img6{
+
+}
+
+img8{
+
+}
+
+img10{
+
+}
+
+imgTrop{
+
+}
+
+
+/* Footer */
+/* footer{
+    background-color: #333;
+    border-top: 1px solid #f00780;
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+}
+
+#design{
+    color: aliceblue;
+}
+
+#Alouka{
+    color: #f00780;
+} */

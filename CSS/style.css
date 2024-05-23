@@ -18,11 +18,13 @@ body{
     display: flex;
     flex-direction: column;
 }
+#page{
+    height: 90vh;
+}
 
 main{
     text-align: center;
     background-color: #333;
-    height: 90vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -78,12 +80,14 @@ a{
 }
 
 .heritier{
-    border: 1px gold solid;
+    border: 1px gold solid; 
+    /* Fond gradient a47a1e D3A84C FFEC94 E6BE69 FFD87C B58F3E 956D13 */
     background-color: #333;
 }
 
 .heritier a{
-    color: gold;
+    color: gold; 
+    /* Noir */
 }
 
 .non{
