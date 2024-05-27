@@ -5,19 +5,34 @@
 }
 
 .container{
-    /* Affichage grid 3 colonnes */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.containerA{
+    margin: 10px;
+    text-align: center;
+    flex-basis: calc(33.33% - 20px); 
+}
+
+.containerImg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 a{
     text-decoration: none;
 }
 
 img{
-    max-width: 130px;
-    object-fit: contain ;
-    /* aspect-ratio: 1 / 1; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 img2{
