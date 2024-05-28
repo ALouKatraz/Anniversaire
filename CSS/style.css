@@ -15,8 +15,8 @@
 Changer la couleur rose pour une couleur plus simple à voir sur le noir
 */
 body{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 #page{
     height: 90vh;
@@ -25,10 +25,10 @@ body{
 main{
     text-align: center;
     background-color: #333;
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */
 }
 
 #jours{
