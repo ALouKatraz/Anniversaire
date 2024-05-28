@@ -25,10 +25,10 @@ body{
 main{
     text-align: center;
     background-color: #333;
-    /* align-items: center;
+    align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: column; */
+    flex-direction: column;
 }
 
 #jours{
@@ -72,22 +72,19 @@ a{
 
 .liste{
     border: 1px #f00780 solid;
-    background-color: #333;
+    background: linear-gradient(to left, #f00780 20%, #ff0777 30%, #ff8cb0 40%, #ff0766 50%, #ff8cb0 70%, #ff0777 80%, #f00780 100%);
 }
 
-.liste a{
-    color: #f00780;
-}
 
 .heritier{
-    border: 1px gold solid; 
+    border: 1px #D3A84C solid; 
+    background: linear-gradient(to left, #a47a1e 20%, #D3A84C 30%, #FFEC94 40%, #E6BE69 50%, #FFD87C 70%, #B58F3E 80%, #956D13 100%);
     /* Fond gradient a47a1e D3A84C FFEC94 E6BE69 FFD87C B58F3E 956D13 */
-    background-color: #333;
+    /* background-color: #333; */
 }
 
-.heritier a{
-    color: gold; 
-    /* Noir */
+.heritier a, .non a, .liste a{
+    color: #333; 
 }
 
 .non{
@@ -96,7 +93,7 @@ a{
 }
 
 .non a{
-    color: #333;
+    cursor: not-allowed;
 }
 
 .non:hover{
