@@ -3,16 +3,19 @@ img{
     padding: 3%;
 }
 
-         
+.ttOk{
+    font-size: x-large;
+}
+
 .oups {
     background-image: linear-gradient(to right, #f7ff00 0%, #db36a4  51%, #f7ff00  100%);
     margin: 10px;
     padding: 10px 45px;
     text-align: center;
     text-transform: uppercase;
+    font-size: large;
     transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
+    background-size: 200% auto;     
     box-shadow: 0 0 10px #eee;
     border-radius: 10px;
     display: block;
@@ -22,5 +25,9 @@ img{
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+    font-size: xx-large;
   }
  
+.oups a{
+    color: white;
+}
