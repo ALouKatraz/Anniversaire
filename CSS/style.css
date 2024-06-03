@@ -40,7 +40,7 @@ main{
 }
 
 #photo{
-    max-width: 300px;
+    max-width: 250px;
     border-radius: 50%;
     margin: 2%;
 }
