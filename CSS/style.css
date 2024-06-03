@@ -14,12 +14,12 @@
 /* 
 Changer la couleur rose pour une couleur plus simple à voir sur le noir
 */
-body{
-    /* display: flex;
-    flex-direction: column; */
-}
+
 #page{
     height: 90vh;
+}
+html{
+    background-color: #333;
 }
 
 main{
@@ -83,9 +83,16 @@ a{
     /* background-color: #333; */
 }
 
-.heritier a, .non a, .liste a{
+.heritier a, .liste a, .non a {
     color: #333; 
+    transition: 1s ease-in-out;
 }
+
+.heritier a:hover, .liste a:hover{
+    letter-spacing: 5px;
+    transition: 0.5s ease-in-out;
+}
+
 
 .non{
     background-color: #444;
