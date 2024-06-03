@@ -16,7 +16,7 @@ Changer la couleur rose pour une couleur plus simple à voir sur le noir
 */
 
 #page{
-    height: 90vh;
+    height: 89vh;
 }
 html{
     background-color: #333;
@@ -55,7 +55,7 @@ main{
 #buttonContainer{
     display: flex;
     justify-content: space-around;
-    margin-top: 2%;
+    margin-top: 1%;
     gap: 20%;
 }
 
@@ -63,6 +63,7 @@ button{
     padding: 1%;
     margin-top: 2%;
     border-radius: 12px;
+    font-size: initial;
 }
 
 a{
@@ -96,6 +97,7 @@ a{
 .non{
     background-color: #444;
     border: none;
+    margin: 2%;
 }
 
 .non a{
